@@ -18,18 +18,15 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  title: "Racing 237 | Le Grand Prix Moto du Cameroun",
+  title: "Racing 237 – Grand Prix Moto Cameroun Officiel",
   description:
-    "Découvrez le Grand Prix Moto du Cameroun, l'événement motorsport de l'année. 8 février 2026 au Stade Japoma de Douala. En direct sur Canal+ et For You Media Africa.",
+    "Racing 237 est le Grand Prix Moto officiel du Cameroun. Découvrez pilotes, événements, médias et actualités en direct du Grand Prix Moto à Douala.",
   keywords: [
-    "racing",
-    "moto",
-    "Cameroun",
-    "grand prix",
-    "motorsport",
-    "Douala",
-    "Japoma",
-    "Canal+",
+    "Racing 237",
+    "Grand Prix Moto Cameroun",
+    "Course moto Cameroun",
+    "Moto GP Cameroun",
+    "Racing Cameroun",
   ],
   authors: [{ name: "Racing 237" }],
   creator: "Racing 237",
@@ -38,22 +35,23 @@ export const metadata: Metadata = {
     type: "website",
     locale: "fr_FR",
     url: "https://racing237.vercel.app",
-    title: "Racing 237 | Le Grand Prix Moto du Cameroun",
+    title: "Racing 237 – Grand Prix Moto Cameroun Officiel",
     description:
-      "Le Grand Prix Moto du Cameroun - 8 février 2026 au Stade Japoma de Douala",
+      "Site officiel du Grand Prix Moto du Cameroun. Pilotes, actualités et événements en direct.",
     siteName: "Racing 237",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Racing 237 | Le Grand Prix Moto du Cameroun",
+    title: "Racing 237 – Grand Prix Moto Cameroun Officiel",
     description:
-      "Le Grand Prix Moto du Cameroun - 8 février 2026 au Stade Japoma de Douala",
+      "Découvrez le Grand Prix Moto du Cameroun : pilotes, événements et actualités officielles.",
   },
   robots: {
     index: true,
     follow: true,
   },
 };
+
 
 export default function RootLayout({
   children,
