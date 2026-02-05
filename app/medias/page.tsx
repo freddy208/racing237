@@ -423,10 +423,7 @@ export default function MediasPage() {
                   {/* Content Overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                     <h3 className="font-display font-bold text-lg mb-1 leading-tight">{media.title}</h3>
-                    <div className="flex items-center gap-2 text-xs text-white/70">
-                      <Calendar className="w-3 h-3" />
-                      <span>{new Date(media.date).toLocaleDateString("fr-FR")}</span>
-                    </div>
+                    
                   </div>
 
                   {/* Type Icon Badge */}
