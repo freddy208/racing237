@@ -32,7 +32,7 @@ const pilotes = [
     categorie: "125cc",
     equipe: "Racing 237",
     photo: "https://res.cloudinary.com/duqsblvzm/image/upload/v1770296983/mbom_cj5v3d.jpg",
-    palmares: ["Champion 2022", "Top chrono 2024"],
+    palmares: ["Vice - champion 2022", "Top chrono 2024"],
   },
 ];
 
